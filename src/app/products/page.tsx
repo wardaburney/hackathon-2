@@ -16,14 +16,14 @@ let product:Iporducts[] = [
   {
         title:"T-SHIRT WITH TAPE DETAILS",
         id:1,
-        price:"$12000",
+        price:"$120",
         img_url:"/product1.svg"
     },
 
     {
         title:"SKINNY FIT JEANS",
         id:2,
-        price:"$14000",
+        price:"$140",
         img_url:"/product2.svg",
     },
     
@@ -31,14 +31,14 @@ let product:Iporducts[] = [
     
         title:"CHECKERED SHIRT",
         id:3,
-        price:"$13000",
+        price:"$130",
         img_url:"/product3.svg"
     },
 
     {
         title:"SLEEVE STRIPED T-SHIRT",
         id:4,
-        price:"$11000",
+        price:"$110",
         img_url:"/product4.svg",
     }
 ]
@@ -56,7 +56,7 @@ export default function Products() {
   return(  
     
     <div className="w-full h-full sm:h-[500px] mt-10 max-w-screen-2xl mx-auto">
-      <h1 className="text-3xl md: text4xl font-bold text-center">CHUTAR ARRIVALS </h1>
+      <h1 className="text-3xl md: text4xl font-bold text-center">NEW ARRIVALS </h1>
       <div className="flex flex-col md:flex-row justify-center items-center md:justify-between px-8 mt-10">
         {
           product.map((data)=>{
